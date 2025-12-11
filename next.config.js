@@ -2,12 +2,16 @@
 const nextConfig = {
   // Enable Edge Runtime for optimal performance on Webflow Cloud (Cloudflare Workers)
   experimental: {
-    // Allow all external origins for proxying
+    runtime: 'edge',
+    // If you need to allow external origins for proxying, add:
+    // externalMiddlewareOrigins: ['*'],
   },
   
-  // Disable image optimization to pass through Webflow images as-is
+  // Image configuration
   images: {
     unoptimized: true,
+    // If you need to use remote images, consider adding domains:
+    // domains: ['your-domain.webflow.io'],
   },
 
   // Skip trailing slash normalization to match Webflow behavior

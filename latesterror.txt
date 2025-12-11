@@ -1,0 +1,172 @@
+12/11 17:45:15 GMT+1] INFO  [0     ]
+[12/11 17:45:15 GMT+1] INFO  [1     ] WWWWWWWWWWWWWWWW        WWWWWWWWWWWW        WWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [2     ] WWWWWWWWWWWWWWWW       WWWWWWWWWWWWW       WWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [3     ] WWWWWWWWWWWWWWWW      WWWWWWWWWWWWWW      WWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [4     ] WWWWWWWWWWWWWWWW     WWWWWWWWWWWWWWW     WWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [5     ] WWWWWWWWWWWWWWWW    WWWWWWWWWWWWWWWW    WWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [6     ] WWWWWWWWWWWWWWWW   WWWWWWWWWWWWWWWWW   WWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [7     ] WWWWWWWWWWWWWWWW  WWWWWWWWWWWWWWWWWWwwWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [8     ] WWWWWWWWWWWWWWWWwWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [9     ] WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [10    ]               WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [11    ]           wWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [12    ]         wWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [13    ] wwWWWWWWWWWWWWWWWWWWWWWWWWWWWWWwWWWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [14    ] WWWWWWWWWWWWWWWWWWWWWWWWWWWWWw  WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [15    ] WWWWWWWWWWWWWWWWWWWWWWWWWWWw   WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [16    ] WWWWWWWWWWWWWWWWWWWWWWWWWw    WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [17    ] WWWWWWWWWWWWWWWWWWWWWWWw     WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [18    ] WWWWWWWWWWWWWWWWWWWWw       WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [19    ] WWWWWWWWWWWWWWWWw          WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [20    ] WWWWWWWWWWWw              WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [21    ] WWWw                     WWWWWWWWWWWWWWWWWW
+[12/11 17:45:15 GMT+1] INFO  [22    ]
+[12/11 17:45:15 GMT+1] INFO  [23    ] Webflow Cloud builder launching...
+[12/11 17:45:15 GMT+1] INFO  [24    ]
+[12/11 17:45:15 GMT+1] INFO  [25    ]
+[12/11 17:45:15 GMT+1] INFO  [26    ] --- 📋 Build Information ------------------------------------------
+[12/11 17:45:15 GMT+1] INFO  [27    ] COMMIT_HASH:       2cb3df65aa359b66bf242adde97b2f4bc53fd009
+[12/11 17:45:15 GMT+1] INFO  [28    ] COSMIC_MOUNT_PATH: /post
+[12/11 17:45:15 GMT+1] INFO  [29    ] Trace ID:          9029273009944858954
+[12/11 17:45:15 GMT+1] INFO  [30    ] node version:      v22.17.1
+[12/11 17:45:15 GMT+1] INFO  [31    ] npm version:       10.9.2
+[12/11 17:45:15 GMT+1] INFO  [32    ] --- 🚀 Notifying build started ------------------------------------
+[12/11 17:45:16 GMT+1] INFO  [33    ]
+[12/11 17:45:16 GMT+1] INFO  [34    ] --- 📥 Downloading repository archive -----------------------------
+[12/11 17:45:16 GMT+1] INFO  [35    ]
+[12/11 17:45:16 GMT+1] INFO  [36    ] Repository: SergiuszR/invisibility
+[12/11 17:45:16 GMT+1] INFO  [37    ] Commit: 2cb3df65aa359b66bf242adde97b2f4bc53fd009
+[12/11 17:45:16 GMT+1] INFO  [38    ] downloaded 97929 bytes, unpacking...
+[12/11 17:45:16 GMT+1] INFO  [39    ] repository download and extraction complete
+[12/11 17:45:16 GMT+1] INFO  [40    ]
+[12/11 17:45:16 GMT+1] INFO  [41    ] --- 🔧 Configuring framework --------------------------------------
+[12/11 17:45:16 GMT+1] INFO  [42    ]
+[12/11 17:45:16 GMT+1] INFO  [43    ] selecting framework nextjs from webflow.json
+[12/11 17:45:16 GMT+1] INFO  [44    ] copying additional config file templates/nextjs/webflow-loader.ts to /repo/webflow-loader.ts
+[12/11 17:45:16 GMT+1] INFO  [45    ]
+[12/11 17:45:16 GMT+1] INFO  [46    ] --- 📦 Installing dependencies ------------------------------------
+[12/11 17:45:16 GMT+1] INFO  [47    ]
+[12/11 17:45:16 GMT+1] INFO  [48    ] running npm clean-install...
+[12/11 17:45:26 GMT+1] INFO  [49    ] npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+[12/11 17:45:26 GMT+1] INFO  [50    ]
+[12/11 17:46:01 GMT+1] INFO  [51    ]
+[12/11 17:46:01 GMT+1] INFO  [52    ] added 894 packages in 45s
+[12/11 17:46:01 GMT+1] INFO  [53    ]
+[12/11 17:46:01 GMT+1] INFO  [54    ] npm clean-install complete
+[12/11 17:46:01 GMT+1] INFO  [55    ]
+[12/11 17:46:01 GMT+1] INFO  [56    ] --- 🔨 Building app -----------------------------------------------
+[12/11 17:46:01 GMT+1] INFO  [57    ]
+[12/11 17:46:01 GMT+1] INFO  [58    ] renaming user base config /repo/next.config.js to /repo/clouduser.next.config.js...
+[12/11 17:46:01 GMT+1] INFO  [59    ] rendering override config from /cosmic/templates/nextjs/next.config.ts.template to /repo/next.config.ts
+[12/11 17:46:02 GMT+1] INFO  [60    ] saving user-provided wrangler JSON as /repo/clouduser.wrangler.json...
+[12/11 17:46:02 GMT+1] INFO  [61    ] building using opennextjs-cloudflare build...
+[12/11 17:46:08 GMT+1] INFO  [62    ]
+[12/11 17:46:08 GMT+1] INFO  [63    ] ┌─────────────────────────────┐
+[12/11 17:46:08 GMT+1] INFO  [64    ] │ OpenNext — Cloudflare build │
+[12/11 17:46:08 GMT+1] INFO  [65    ] └─────────────────────────────┘
+[12/11 17:46:08 GMT+1] INFO  [66    ]
+[12/11 17:46:08 GMT+1] INFO  [67    ]
+[12/11 17:46:08 GMT+1] INFO  [68    ] App directory: /repo
+[12/11 17:46:08 GMT+1] INFO  [69    ]
+[12/11 17:46:08 GMT+1] INFO  [70    ] Next.js version : 15.5.7
+[12/11 17:46:08 GMT+1] INFO  [71    ]
+[12/11 17:46:08 GMT+1] INFO  [72    ] @opennextjs/cloudflare version: 1.14.4
+[12/11 17:46:08 GMT+1] INFO  [73    ]
+[12/11 17:46:08 GMT+1] INFO  [74    ] @opennextjs/aws version: 3.9.4
+[12/11 17:46:08 GMT+1] INFO  [75    ]
+[12/11 17:46:08 GMT+1] INFO  [76    ]
+[12/11 17:46:08 GMT+1] INFO  [77    ] ┌─────────────────────────────────┐
+[12/11 17:46:08 GMT+1] INFO  [78    ] │ OpenNext — Building Next.js app │
+[12/11 17:46:08 GMT+1] INFO  [79    ] └─────────────────────────────────┘
+[12/11 17:46:08 GMT+1] INFO  [80    ]
+[12/11 17:46:08 GMT+1] INFO  [81    ]
+[12/11 17:46:09 GMT+1] INFO  [82    ]
+[12/11 17:46:09 GMT+1] INFO  [83    ] > webflow-visibility-cleaner@1.0.0 build
+[12/11 17:46:09 GMT+1] INFO  [84    ] > next build
+[12/11 17:46:09 GMT+1] INFO  [85    ]
+[12/11 17:46:09 GMT+1] INFO  [86    ]
+[12/11 17:46:11 GMT+1] INFO  [87    ] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[12/11 17:46:11 GMT+1] INFO  [88    ]
+[12/11 17:46:11 GMT+1] INFO  [89    ] This information is used to shape Next.js' roadmap and prioritize features.
+[12/11 17:46:11 GMT+1] INFO  [90    ]
+[12/11 17:46:11 GMT+1] INFO  [91    ] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[12/11 17:46:11 GMT+1] INFO  [92    ] https://nextjs.org/telemetry
+[12/11 17:46:11 GMT+1] INFO  [93    ]
+[12/11 17:46:11 GMT+1] INFO  [94    ]
+[12/11 17:46:11 GMT+1] INFO  [95    ]    ▲ Next.js 15.5.7
+[12/11 17:46:11 GMT+1] INFO  [96    ]
+[12/11 17:46:11 GMT+1] INFO  [97    ]
+[12/11 17:46:11 GMT+1] INFO  [98    ]
+[12/11 17:46:11 GMT+1] INFO  [99    ]    Creating an optimized production build ...
+[12/11 17:46:29 GMT+1] INFO  [101   ]  ✓ Compiled successfully in 14.2s
+[12/11 17:46:29 GMT+1] INFO  [102   ]
+[12/11 17:46:29 GMT+1] INFO  [103   ]    Linting and checking validity of types ...
+[12/11 17:46:29 GMT+1] INFO  [104   ]
+[12/11 17:46:29 GMT+1] INFO  [105   ]
+[12/11 17:46:29 GMT+1] INFO  [106   ]
+[12/11 17:46:29 GMT+1] INFO  [107   ]    We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[12/11 17:46:29 GMT+1] INFO  [108   ]    The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[12/11 17:46:29 GMT+1] INFO  [109   ]
+[12/11 17:46:29 GMT+1] INFO  [110   ]    	- target was set to ES2017 (For top-level `await`. Note: Next.js only polyfills for the esmodules target.)
+[12/11 17:46:29 GMT+1] INFO  [111   ]
+[12/11 17:46:29 GMT+1] INFO  [112   ]
+[12/11 17:46:29 GMT+1] INFO  [113   ]
+[12/11 17:46:34 GMT+1] INFO  [114   ] Failed to compile.
+[12/11 17:46:34 GMT+1] INFO  [115   ]
+[12/11 17:46:34 GMT+1] INFO  [116   ]
+[12/11 17:46:34 GMT+1] INFO  [117   ] app/[[...path]]/route.ts
+[12/11 17:46:34 GMT+1] INFO  [118   ] Type error: Route "app/[[...path]]/route.ts" has an invalid "GET" export:
+[12/11 17:46:34 GMT+1] INFO  [119   ]   Type "{ params: { path?: string[] | undefined; }; }" is not a valid type for the function's second argument.
+[12/11 17:46:34 GMT+1] INFO  [120   ]
+[12/11 17:46:34 GMT+1] INFO  [121   ]
+[12/11 17:46:34 GMT+1] INFO  [122   ] Next.js build worker exited with code: 1 and signal: null
+[12/11 17:46:34 GMT+1] INFO  [123   ]
+[12/11 17:46:34 GMT+1] INFO  [124   ] npm notice
+[12/11 17:46:34 GMT+1] INFO  [125   ] npm notice New major version of npm available! 10.9.2 -> 11.7.0
+[12/11 17:46:34 GMT+1] INFO  [126   ] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+[12/11 17:46:34 GMT+1] INFO  [127   ] npm notice To update run: npm install -g npm@11.7.0
+[12/11 17:46:34 GMT+1] INFO  [128   ] npm notice
+[12/11 17:46:34 GMT+1] INFO  [129   ]
+[12/11 17:46:34 GMT+1] INFO  [130   ] opennextjs-cloudflare build
+[12/11 17:46:34 GMT+1] INFO  [131   ]
+[12/11 17:46:34 GMT+1] INFO  [132   ] Build an OpenNext Cloudflare worker
+[12/11 17:46:34 GMT+1] INFO  [133   ]
+[12/11 17:46:34 GMT+1] INFO  [134   ] Options:
+[12/11 17:46:34 GMT+1] INFO  [135   ]       --help                        Show help                          [boolean]
+[12/11 17:46:34 GMT+1] INFO  [136   ]       --version                     Show version number                [boolean]
+[12/11 17:46:34 GMT+1] INFO  [137   ]   -c, --config                      Path to Wrangler configuration file [string]
+[12/11 17:46:34 GMT+1] INFO  [138   ]       --configPath                  Path to Wrangler configuration file
+[12/11 17:46:34 GMT+1] INFO  [139   ]                                                            [deprecated] [string]
+[12/11 17:46:34 GMT+1] INFO  [140   ]   -e, --env                         Wrangler environment to use for operations
+[12/11 17:46:34 GMT+1] INFO  [141   ]                                                                         [string]
+[12/11 17:46:34 GMT+1] INFO  [142   ]   -s, --skipNextBuild, --skipBuild  Skip building the Next.js app
+[12/11 17:46:34 GMT+1] INFO  [143   ]                                                       [boolean] [default: false]
+[12/11 17:46:34 GMT+1] INFO  [144   ]       --noMinify                    Disable worker minification
+[12/11 17:46:34 GMT+1] INFO  [145   ]                                                       [boolean] [default: false]
+[12/11 17:46:34 GMT+1] INFO  [146   ]       --skipWranglerConfigCheck     Skip checking for a Wrangler config
+[12/11 17:46:34 GMT+1] INFO  [147   ]                                                       [boolean] [default: false]
+[12/11 17:46:34 GMT+1] INFO  [148   ]       --openNextConfigPath          Path to the OpenNext configuration file
+[12/11 17:46:34 GMT+1] INFO  [149   ]                                                                         [string]
+[12/11 17:46:34 GMT+1] INFO  [150   ]
+[12/11 17:46:34 GMT+1] INFO  [151   ]
+[12/11 17:46:34 GMT+1] INFO  [152   ]
+[12/11 17:46:34 GMT+1] INFO  [153   ] Error: Command failed: npm run build
+[12/11 17:46:34 GMT+1] INFO  [154   ]     at genericNodeError (node:internal/errors:983:15)
+[12/11 17:46:34 GMT+1] INFO  [155   ]     at wrappedFn (node:internal/errors:537:14)
+[12/11 17:46:34 GMT+1] INFO  [156   ]     at checkExecSyncError (node:child_process:883:11)
+[12/11 17:46:34 GMT+1] INFO  [157   ]     at Object.execSync (node:child_process:955:15)
+[12/11 17:46:34 GMT+1] INFO  [158   ]     at buildNextjsApp (file:///repo/node_modules/@opennextjs/aws/dist/build/buildNextApp.js:15:8)
+[12/11 17:46:34 GMT+1] INFO  [159   ]     at build (file:///repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:47:9)
+[12/11 17:46:34 GMT+1] INFO  [160   ]     at buildCommand (file:///repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:21:11) {
+[12/11 17:46:34 GMT+1] INFO  [161   ]   status: 1,
+[12/11 17:46:34 GMT+1] INFO  [162   ]   signal: null,
+[12/11 17:46:34 GMT+1] INFO  [163   ]   output: [ null, null, null ],
+[12/11 17:46:34 GMT+1] INFO  [164   ]   pid: 168,
+[12/11 17:46:34 GMT+1] INFO  [165   ]   stdout: null,
+[12/11 17:46:34 GMT+1] INFO  [166   ]   stderr: null
+[12/11 17:46:34 GMT+1] INFO  [167   ] }
+[12/11 17:46:34 GMT+1] INFO  [168   ]
+[12/11 17:46:34 GMT+1] INFO  [169   ] Webflow Cloud builder exiting...
+[12/11 17:46:34 GMT+1] ERROR [170   ] nextjs build failed
+[12/11 17:46:34 GMT+1] ERROR [171   ] caused by: ["npm","--no-update-notifier","--no-progress","--no-audit","--no-fund","exec","-c","opennextjs-cloudflare build"] exited with non-zero exit code 1
+[12/11 17:46:35 GMT+1] INFO  [172   ] failure reported to completion URL!
