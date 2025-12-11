@@ -53,11 +53,14 @@ export function buildForwardHeaders(request: Request): Headers {
         }
     }
 
-    // Always set host to the origin's host
-    if (config.webflowOrigin) {
-        const originUrl = new URL(config.webflowOrigin);
-        headers.set("host", originUrl.host);
-    }
+    // We typically do NOT want to manually set the Host header when fetching
+    // from a Cloudflare Worker to another Cloudflare site, as fetch() will
+    // set it correctly based on the target URL. Setting it manually can cause
+    // Error 1000 if not careful.
+    // if (config.webflowOrigin) {
+    //    const originUrl = new URL(config.webflowOrigin);
+    //    headers.set("host", originUrl.host);
+    // }
 
     return headers;
 }
