@@ -27,15 +27,27 @@ export function buildTargetUrl(request: Request, pathname: string): string {
     // Construct the path, ensuring we respect the mount path
     // Remove leading slash from pathname if mountPath is present to avoid double slashes if needed, 
     // but usually cleaner to just join them.
-    // origin has no trailing slash (usually), mountPath starts with /, pathname starts with /
 
-    // We need: origin + mountPath + pathname
-    // But if mountPath is /post and pathname is /future-of-cms
-    // We want /post/future-of-cms
+    // Logic for "Preview Mode":
+    // If the user sets PROXY_TARGET_ROOT=true, we want to fetch the "root" content
+    // regardless of where the app is mounted. 
+    // Example: Mounted at /preview, User visits /preview/about
+    // Next.js sees pathname="/about".
+    // We want to fetch origin + "/about". 
+    // So we do NOT prepend mountPath.
 
-    // However, if pathname comes from Next.js route params, it might be just /future-of-cms
+    let fullPath = pathname;
 
-    const fullPath = `${config.mountPath}${pathname}`.replace('//', '/');
+    // Check if we should enforce root proxying (Preview Mode) logic
+    const isPreviewMode = process.env.PROXY_TARGET_ROOT === "true";
+
+    if (!isPreviewMode && config.mountPath) {
+        // Standard sub-app mode: Mounted at /post, Content at /post
+        // We prepend /post to make sure we fetch the right content.
+        fullPath = `${config.mountPath}${pathname}`.replace('//', '/');
+    }
+
+    // Default case (or Preview Mode): fullPath passed as-is
 
     return `${origin}${fullPath}${searchParams}`;
 }
