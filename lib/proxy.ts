@@ -24,7 +24,20 @@ export function buildTargetUrl(request: Request, pathname: string): string {
     const url = new URL(request.url);
     const searchParams = url.search;
 
-    return `${origin}${pathname}${searchParams}`;
+    // Construct the path, ensuring we respect the mount path
+    // Remove leading slash from pathname if mountPath is present to avoid double slashes if needed, 
+    // but usually cleaner to just join them.
+    // origin has no trailing slash (usually), mountPath starts with /, pathname starts with /
+
+    // We need: origin + mountPath + pathname
+    // But if mountPath is /post and pathname is /future-of-cms
+    // We want /post/future-of-cms
+
+    // However, if pathname comes from Next.js route params, it might be just /future-of-cms
+
+    const fullPath = `${config.mountPath}${pathname}`.replace('//', '/');
+
+    return `${origin}${fullPath}${searchParams}`;
 }
 
 /**

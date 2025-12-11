@@ -19,6 +19,12 @@ export const config = {
     webflowOrigin: process.env.WEBFLOW_ORIGIN || "",
 
     /**
+     * The mount path of the application (e.g. "/post").
+     * Used to prepend to the path when fetching from the origin.
+     */
+    mountPath: process.env.COSMIC_MOUNT_PATH || process.env.MOUNT_PATH || "",
+
+    /**
      * CSS selectors for elements to remove from the HTML.
      * These elements will be completely stripped from the response.
      */
