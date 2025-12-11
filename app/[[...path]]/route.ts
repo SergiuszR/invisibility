@@ -13,54 +13,45 @@ import { transformHtml, shouldTransform } from "@/lib/transformer";
 // Force Edge Runtime for HTMLRewriter support
 export const runtime = "edge";
 
+// Next.js 15 uses async params
+type RouteContext = {
+    params: Promise<{ path?: string[] }>;
+};
+
 // Handle all HTTP methods
-export async function GET(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function GET(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
-export async function POST(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function POST(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
-export async function PUT(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function PUT(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
-export async function DELETE(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function DELETE(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
-export async function PATCH(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function PATCH(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
-export async function HEAD(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function HEAD(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
-export async function OPTIONS(
-    request: NextRequest,
-    { params }: { params: { path?: string[] } }
-) {
-    return handleRequest(request, params.path);
+export async function OPTIONS(request: NextRequest, context: RouteContext) {
+    const { path } = await context.params;
+    return handleRequest(request, path);
 }
 
 /**
