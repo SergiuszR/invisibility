@@ -1,7 +1,8 @@
 export default {
     default: {
+        external: true,
         override: {
-            wrapper: "cloudflare-node",
+            wrapper: "cloudflare-edge",
             converter: "edge",
             proxyExternalRequest: "fetch",
             incrementalCache: "dummy",
