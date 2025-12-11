@@ -2,7 +2,6 @@
 const nextConfig = {
   // Enable Edge Runtime for optimal performance on Webflow Cloud (Cloudflare Workers)
   experimental: {
-    runtime: 'edge',
     // If you need to allow external origins for proxying, add:
     // externalMiddlewareOrigins: ['*'],
   },

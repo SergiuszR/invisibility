@@ -11,7 +11,7 @@ import { fetchFromOrigin, buildResponseHeaders } from "@/lib/proxy";
 import { transformHtml, shouldTransform } from "@/lib/transformer";
 
 // Force Edge Runtime for HTMLRewriter support
-export const runtime = "edge";
+// export const runtime = "edge";
 
 // Next.js 15 uses async params
 type RouteContext = {
